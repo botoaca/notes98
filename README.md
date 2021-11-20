@@ -6,3 +6,7 @@ Notes 98 is a simple note-taking app in the style of Microsoft Windows 98 made u
 ### References
 * [98.css](https://jdan.github.io/98.css/)
 * [electron.js](https://www.electronjs.org/)
+
+<p align="center">
+    <img src="assets/ss.png" />
+</p>
