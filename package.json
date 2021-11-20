@@ -1,0 +1,15 @@
+{
+  "name": "notes98",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "nocturnodev",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.1"
+  }
+}

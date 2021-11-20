@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="base.js"></script>
+    <script src="note.js"></script>
+    <title>Notes 98 | Note</title>
+  </head>
+
+  <body>
+    <div class="window" style="width: 100%; height: 96vh;">
+      <div class="title-bar">
+          <div class="title-bar-text">Notes 98 | Note</div>
+          <div class="title-bar-controls">
+          <button aria-label="Minimize" id="minimize-btn"></button>
+          <button aria-label="Close" id="close-btn"></button>
+          </div>
+      </div>
+
+      <div class="window-body">
+          <section class="field-row" style="justify-content: flex-end">
+                <button id="save-btn">Save</button>
+                <a href="menu.html">
+                  <button id="back-btn">Back</button>
+                </a>
+          </section>
+          <div class="field-row-stacked" style="width: 100%">
+            <textarea id="note-content" rows="50"></textarea>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
